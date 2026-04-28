@@ -1,9 +1,5 @@
-version: '3'
-
 services:
   qwertylearner:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: qwerty-learner:latest
     ports:
-      - '8990:5173'
+      - '8990:80'
