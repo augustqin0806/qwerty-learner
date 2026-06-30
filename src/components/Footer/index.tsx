@@ -236,7 +236,6 @@ const Footer: React.FC = () => {
           className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
           type="button"
           onClick={(e) => {
-            handleOpenInfoPanel('donate')
             window.open('https://github.com/RealKai42/qwerty-learner', '_blank', 'noopener,noreferrer')
             e.currentTarget.blur()
           }}
